@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: mydockeragent
+pool: Default
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
